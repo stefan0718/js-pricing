@@ -1,0 +1,39 @@
+body { font-family: Font; }
+
+@font-face {
+	font-family: Font;
+	src: url('/fonts/font.woff2') format("woff2");
+}
+
+.color-primary { background-color: #f57706; }
+.color-popular { background-color: #0fb682; }
+.color-grey { background-color: #85959d; }
+.text-popular { color: #0fb682; }
+.text-grey { color: #85959d; }
+
+.size-xs { font-size: .6em; }
+.size-sm { font-size: .7em; }
+.size-nm { font-size: .8em; }
+
+nav {
+	height: 45px;
+}
+
+#banner {
+	background-image: url('/assets/img_header.png');
+	background-size: cover;
+}
+
+.popular-plan-border-top { border-top: 0.5rem solid #0fb682; }
+
+.normal-plan-border-top { border-top: 0.5rem solid #85959d; }
+
+.btn-mt { margin-top: 2rem; }
+
+.ribbon {
+	position: absolute;
+    top: 0;
+	right: 0;
+	height: 3rem;
+	margin-top: -0.5rem;
+}
